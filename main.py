@@ -76,4 +76,4 @@ def get_link_data():
   return jsonify({"status": 200, "info": link_info})
 
 
-app.run(host='0.0.0.0', port=81)
+app.run(host='0.0.0.0', port=10081)
